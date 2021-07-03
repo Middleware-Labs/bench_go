@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	controllers "github.com/cavdy-play/go_db/controllers"
+	controllers "bench_go/controllers"
 )
 
 func Routes(router *gin.Engine) {

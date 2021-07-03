@@ -5,8 +5,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	config "github.com/cavdy-play/go_db/config"
-	routes "github.com/cavdy-play/go_db/routes"
+	config "bench_go/config"
+	routes "bench_go/routes"
 )
 
 func main() {

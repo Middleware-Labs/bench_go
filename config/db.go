@@ -5,7 +5,7 @@ import (
 	"os"
 	"github.com/go-pg/pg/v9"
 
-	controllers "github.com/cavdy-play/go_db/controllers"
+	controllers "bench_go/controllers"
 )
 
 // Connecting to db
