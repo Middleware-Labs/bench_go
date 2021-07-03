@@ -1,7 +1,7 @@
 # bench_go
 
 # installation
-
+```bash
 wget https://golang.org/dl/go1.16.5.linux-amd64.tar.gz
 tar xvf go1.16.5.linux-amd64.tar.gz 
 sudo chown -R root:root ./go
@@ -16,3 +16,4 @@ go get -u github.com/gin-gonic/gin
 go get -u github.com/go-pg/pg
 go get github.com/go-pg/pg/v9
 go get github.com/go-pg/pg/v9/orm
+```
