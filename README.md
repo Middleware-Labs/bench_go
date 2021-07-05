@@ -8,8 +8,9 @@ sudo chown -R root:root ./go
 sudo mv go /usr/local
 sudo nano ~/.profile
 ## Add the following at the end: ##
-> export GOPATH=$HOME/work
-> export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+export GOPATH=$HOME/work
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+
 source ~/.profile
 mkdir $HOME/work
 
