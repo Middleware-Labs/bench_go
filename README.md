@@ -20,4 +20,6 @@ go get -u github.com/gin-gonic/gin
 go get -u github.com/go-pg/pg
 go get github.com/go-pg/pg/v9
 go get github.com/go-pg/pg/v9/orm
+
+go run main.go
 ```
