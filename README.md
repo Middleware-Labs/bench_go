@@ -23,3 +23,15 @@ go get github.com/go-pg/pg/v9/orm
 
 go run main.go
 ```
+
+# Help Docs
+Go Gin Core:
+Go Gin Framework: https://github.com/gin-gonic/gin
+HTML Rendering in Gin: https://github.com/gin-gonic/gin#html-rendering
+Go Goroutines: https://github.com/gin-gonic/gin#goroutines-inside-a-middleware
+Run Multiple Services: https://github.com/gin-gonic/gin#run-multiple-service-using-gin
+
+DB:
+PostgreSQL: https://pg.uptrace.dev/
+ArangoDB: https://www.arangodb.com/docs/stable/drivers/go-getting-started.html
+MongoDB: https://docs.mongodb.com/drivers/go/
