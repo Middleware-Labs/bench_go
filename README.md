@@ -32,6 +32,7 @@ go run main.go
 - Run Multiple Services: https://github.com/gin-gonic/gin#run-multiple-service-using-gin
 
 ## DB:
-- PostgreSQL: https://pg.uptrace.dev/
+- PostgreSQL (ORM Based): https://pg.uptrace.dev/
+- Pure PostgreSQL Driver: https://pkg.go.dev/github.com/lib/pq
 - ArangoDB: https://www.arangodb.com/docs/stable/drivers/go-getting-started.html
 - MongoDB: https://docs.mongodb.com/drivers/go/
