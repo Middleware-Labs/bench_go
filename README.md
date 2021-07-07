@@ -41,6 +41,8 @@ go run main.go
 ## DB:
 - PostgreSQL (ORM Based): https://pg.uptrace.dev/
 - Pure PostgreSQL Driver: https://pkg.go.dev/github.com/lib/pq
+- BUN ORM: https://bun.uptrace.dev/guide/drivers.html#pgdriver
+- - Driver behind BUN: https://github.com/jackc/pgx
 
 - ArangoDB: https://www.arangodb.com/docs/stable/drivers/go-getting-started.html
 - - ArangoDB Example Usage: https://www.arangodb.com/docs/stable/drivers/go-example-requests.html
