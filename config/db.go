@@ -1,20 +1,25 @@
 package config
 
 import (
+	"fmt"
 	"log"
 	"os"
+
+	//"fmt"
 	"github.com/go-pg/pg/v9"
 
 	controllers "bench_go/controllers"
 )
 
 // Connecting to db
-func Connect() *pg.DB {
+func Connect(GetEnv map[string]string) *pg.DB {
+	fmt.Printf("PG USER env : %s = %s \n", "DB USER", GetEnv["PG_ADDR"])
+	fmt.Printf("PG PASS env : %s = %s \n", "DB PASS", GetEnv["PG_DB"])
 	opts := &pg.Options{
-		User: "postgres",
-		Password: "bcv8TBzS3vqbGciO2J73gwLYaoYbGciO2J73gwLopaopa4eCAue3vqonAue3vqo",
-		Addr: "localhost:5432",
-		Database: "benchdb",
+		User:     GetEnv["PG_USER"],
+		Password: GetEnv["PG_PASS"],
+		Addr:     GetEnv["PG_ADDR"],
+		Database: GetEnv["PG_DB"],
 	}
 
 	var db *pg.DB = pg.Connect(opts)
